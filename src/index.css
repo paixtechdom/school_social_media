@@ -1,0 +1,51 @@
+
+:root{
+    --buttonBg: rgb(25, 16, 157);
+
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'sans-serif';
+
+}
+body{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    width: 100%;
+}
+
+
+input, button, select{
+    border: 1px solid black;
+}
+
+a{
+    color: black;
+}
+.parent{
+    margin-top: 8vh;
+}
+.icon{
+    /* width: 20px; */
+}
+i.fa{
+    width: 30px;
+    font-size: 15px;
+}
+
+@media (min-width: 500px) {
+    body, .navbar, .load, .loading, .likeInfo{
+        width: 500px;
+    }
+    .navbar{
+        box-shadow: 2px 0px 2px 0.2px rgba(0, 0, 0, 0.3);
+        border-bottom: none;
+    }
+    body, .load, .loading{
+        box-shadow: 2px 0px 2px 0.2px rgba(0, 0, 0, 0.368);
+    }
+}

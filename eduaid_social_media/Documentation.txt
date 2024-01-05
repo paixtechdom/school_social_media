@@ -1,0 +1,55 @@
+EDUAID STUDENT NETWORK DOCUMENTATION
+
+
+OVERVIEW
+	Eduaid Student Network is a social media web application developed for Eduaid Consult. It has limited capacities compared to other social media application in existence today. But a combination of some features gives it an advantage over other social media applications in existence. Its purpose is to create a community among the students of the institution where they can communicate their thoughts and ideas and also others reacting or commenting to those thoughts. And most importantly, a main feature of this web application is the ability of the final year students to upload their project work on the web application, creating an oppurtunity for the upcoming students to easily access their works.
+
+LOGIN
+	In order for a student to access the application, he needs to input his matric number and his last name and first name combined together without space and in capital letters. For example, the password of a student whose last name is "John" and first name is "DOE" is "JOHNDOE". 
+
+
+ 
+
+
+
+
+PROFILES
+	Only few and limited priviledges are given to students in order to modify their accounts and this is because this is strictly a school regulated social media application. The ability to update profile picture and change password only is given to students. These operations can be done on the settings page
+To change password, the student must know his previous password (If forgotten, visit the admin)
+To change profile picture the user clicks the button, "Click to select an image". Having selected an image the name of the image is displayed on that button (click on the name of the picture selected to change the image) then click the update button.
+
+ 
+NAVIGATION
+	To achieve smooth navigation, each link is aided with an icon which futher depicts what the link represents. 
+Home Page: this is the first page the user is taken to after he logs in or refreshes the page. Pages such as Posts, Updates, Gallery and Projects are found in the home page
+Posts: uosts from other students are found here.
+Updates: updates from the admin are found here.
+Gallery : pictures from the post page are found here.
+Projects: Uploaded projects by the final year students are found here.
+Settings page: Actions to change password and update profile picture cna be done here 
+
+ 
+
+
+INTERACTIONS AND ENGAGEMENT
+Posts: To add a post any of the three inputs is required, that is either a title, content or an image is needed to create a post. Each post displays the content, image is available, details of the student who created the post such as his profile picture and name and also the time the post was created. All posts are arranged based on the time it was created, newer posts are above and old posts below. The student who created a post can delee it.
+SCHOOL UPDATES: Here only the admin can add an update/notification, a notification content is required and others optional to create an update/notification. Updates are visible to all users who can add comments or likes. Admin can delete a notification/update.
+Comments: Comments can be added to each posts or updates. Comments cannot be deleted after it has been added. The number of comments a post has is displayed above the comment button. To comment or view comments, click on the text that displays the number of comments
+Likes:  a post or update can be liked or unlinked by clicking on the like button. The number of like a post has is displayed above the like button. And those who liked the posts can be viewed be clicking text that displays the number of likes of the post.
+Gallery: Pictures from the post page a compiled at the gallery. All pictures can be enlarged by clicking on them.
+PROJECTS: All final year student can upload their final year project work once and cannot be deleted after uploading it.
+
+
+      
+ 
+
+
+
+
+
+
+URL: https://eduaidsocialmedia.000webhostapp.com
+
+
+
+

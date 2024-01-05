@@ -1,0 +1,41 @@
+.usersParent{
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px !important;
+    margin: 20px 0 0 0;
+}
+
+div.users{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.users i, .users b{
+    width: 10%;
+}
+
+.users h3{
+    text-align: left;
+    width: 75%;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+.users b{margin-top: 20px;}
+.users p{margin-top: 20px;}
+.users button{
+    margin-top: 20px;
+    /* width: 20px; */
+    width: 15%;
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    font-size: 80%;
+    border: none;
+    visibility: hidden;
+}
+.users p{
+    width: 15%;
+    font-weight: 600;
+}

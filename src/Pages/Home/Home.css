@@ -1,0 +1,349 @@
+i.fa{
+    /* width: 20px; */
+    /* font-size: 20px; */
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.floatUp{
+    top: 8vh;
+    height: 3.7vh;
+    /* background-color: white; */
+    z-index: 88;
+    position: fixed;
+}
+
+.fixed{
+    height: 3.7vh;
+    position: sticky;
+    background-color: white;
+    top: 8vh;
+    z-index: 11;
+    box-shadow: 0px 5px 5px 0.1px rgba(0, 0, 0, 0.246);
+}
+.buttons button{
+    border: 1px solid  rgba(0, 0, 0, 0.05);
+    height: 40px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 11px;
+    transition: all 0.2s ease-in-out;
+}
+button{
+    transition: all 0.2s ease-in-out;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px !important;
+}
+.buttons button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons i{
+    align-self: center;
+}
+.buttons span{
+    color: rgba(0, 0, 0, 0.66);
+    transform: scale(0.8);    
+}
+.buttons img{
+    width: 20px;
+    cursor: pointer;
+}
+button:hover span, button.blue, button.blue span {
+    color: blue;
+    transform: scale(1);
+}
+
+
+
+div.adds{
+    width: 90%;
+    margin: -15px 5% 25px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px !important;
+    row-gap: 10px !important;
+}
+div.adds button{
+    font-size: 11px;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 12vh;
+    min-height: 12vh;
+    padding: 5px;
+}
+input, textarea {
+    font-size: 11px;
+
+}
+textarea.commentInput{
+    max-height: 7vh;
+    min-height: 7vh;
+}
+button.commentAction{
+    height: 3vh;
+    font-size: 14px;
+}
+.LikeNo{
+    width: 100%;
+    font-size: 12px;
+    margin-top: 3px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+.LikeNo p{
+    cursor: pointer;
+}
+.poNoParent{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    column-gap: 30px !important;
+    row-gap: 10px !important;
+}
+
+.postUserInfo{
+    display: flex;
+    width: 100%;
+    column-gap: 15px !important;
+    row-gap: 15px !important;
+}
+.postUserInfo .postImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.postUserInfo .postImg img{
+    width: 100%;
+    cursor: pointer;
+}
+.poNo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.01); */
+    column-gap: 10px !important;
+    row-gap: 10px !important;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.poNoButtons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.poNo button{
+    width: 30px;
+    height: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.poNo button:hover{
+    background-color: rgb(176, 17, 17);
+    border: none;
+    transform: scale(1.1);
+}
+button.commentButton{
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+button.commentButton span{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+button.commentButton:hover{
+    color: blue;
+    background-color: white;
+}
+button#blue, span#blue {
+    color: blue;
+}
+
+h3{
+    font-size: 12px;
+}
+i{
+    align-self: flex-start;
+    font-size: 11px;
+    font-weight: bold;
+}
+p{
+    font-size: 11px;
+}
+.image{
+    width: 70%;
+    cursor: pointer;
+}
+.selectClass{
+    display: flex;
+    column-gap: 20px !important;
+    row-gap: 20px !important;
+}
+.selectClass button {
+    color: black;
+}
+.selectClass button:hover {
+    border: 1px solid black;
+}
+.invisible{
+    display: none;
+}
+
+/* GALLERY */
+.galleryParent{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px !important;
+    row-gap: 20px !important;
+    width: 100%;
+    /* padding: 0 20px ; */
+}
+.galleryParent h2{
+    margin-left: 20px;
+}
+.gallery{
+    background-color: rgba(0, 0, 0, 0.01);
+    padding: 20px 2px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    column-gap: 5px !important;
+    row-gap: 5px !important;
+}
+.imageParent{
+    width: 150px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2); */
+    border: none;
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+.imageParent img{
+    width: 100%;
+    align-self: flex-end;
+}
+.imageParent:hover{
+    box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+
+/* COMMENTS */
+
+.commentParent{
+    margin: 2vh 0 4vh 0;
+    max-height: 50vh;
+    overflow-y: auto;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.522);
+}
+
+.comment{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.comment p:last-child{
+    padding: 10px 20px;
+}
+.commentParent form {
+    margin: 0 0 3vh 0;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    box-shadow: 0px 2px 5px 0.2px rgba(0, 0, 0, 0.547);
+}
+
+.likeInfo{
+    position: fixed;
+    bottom: 0%;
+    background-color: white;
+    /* width: 100%; */
+    min-height: 40vh;
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    /* padding: 20px 0; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    padding: 10px 15px;
+    width: 100%;
+    height: 7vh;
+    position: relative;
+}
+.info h4{
+    font-size: 12px;
+}
+.info i{
+    font-weight: lighter;   
+    font-size: 9px;
+}
+.likeInfo button{
+  padding: 2px;
+  border-radius: 9px;
+  margin-bottom: 2vh;
+  background-color: rgb(13, 13, 152);
+  color: white;
+  border-bottom: none;
+}
+
+button.delete:hover, button.delete:hover span{
+    color: rgb(227, 14, 14);
+}

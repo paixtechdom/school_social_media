@@ -1,0 +1,13 @@
+.alert{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 25px;
+}
+.alert p{
+    background-color: rgb(226, 210, 210);
+    padding:  20px;
+    border-radius: 20px;
+    font-size: 11px;
+}

@@ -1,0 +1,59 @@
+.settings{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px !important;
+    row-gap: 20px !important;
+    top: 0vh;
+    background-color: white;
+    width: 100%;
+    margin: 0 0 200px 0;
+}
+.settings h4{
+    margin-bottom: 2px;
+}
+
+.settings form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    column-gap: 5px !important;
+    row-gap: 5px !important;
+}
+.settings .focusInput{
+    margin-top: 2vh;
+    align-self: center;
+    width: 70%;
+    font-size: 13px;
+}
+
+#image{
+    align-self: center;
+}
+.setProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0;
+    /* background-color: red; */
+    position: relative;
+}
+.sP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0.1px rgba(0, 0, 0, 0.3);
+}
+.setProfile img{
+    width: 100%;
+
+    cursor: pointer;
+}
+

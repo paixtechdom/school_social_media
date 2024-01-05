@@ -1,0 +1,46 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px !important;
+}
+
+.projects h2{
+    margin-top: 2vh;
+    font-size: 17px;
+}
+
+.project {
+    display: flex;
+    column-gap: 15px !important;
+    border: 1px solid rgba(0, 0, 0, 0.386);
+    padding: 7px;
+    border-radius: 7px;
+}
+.project div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 4px !important;
+}
+.project h3{
+    font-variant: small-caps;
+    font-size: 14px;
+}
+
+.project a{
+    border: 1px solid rgba(0, 0, 0, 0.467);
+    box-shadow: 0px 0px 5px 0.2px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    align-self: flex-end;
+    /* width: 20%; */
+    padding: 5px;
+}
+.project a i{
+    font-size: 10px;
+    width: 15px;
+}
+.project i{
+    font-weight: lighter;
+    text-align: right;
+    align-self: flex-end;
+}

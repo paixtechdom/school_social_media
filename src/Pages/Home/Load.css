@@ -1,0 +1,53 @@
+.load{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    z-index: 2000;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px !important;
+    row-gap: 20px !important;
+    z-index: 22222222;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+.load img{
+    width: 100px;
+    box-shadow: 0px 0px 10px 0.2px rgba(0,0,0, 0.2);
+    border-radius: 10px;
+    animation: load 2s ease-in-out infinite;
+    position: fixed;
+    top: 20%;
+}
+
+.load p span{
+    color: rgb(23, 23, 173);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.inload{
+    top:  14vh;
+}
+.inload img{
+    top: 30%;
+    width: 80px;
+}
+
+@keyframes load {
+    0%{width: 100px;}
+    50%{width: 70px;}
+    100%{width: 100px;}
+
+    0%{transform: rotateX(0deg);}
+    25%{transform: rotateX(70deg);}
+    75%{transform: rotateY(70deg);}
+    100%{transform: rotateY(0deg);}
+}
